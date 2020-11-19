@@ -52,7 +52,7 @@ describe('Integrations', () => {
         });
     });
 
-    it('MM-T624 Viewing attachments with invalid URL does not cause the application to crash', () => {
+    it('MM-T643 Incoming webhook:Long URL for embedded image', () => {
         const payload = getPayload(testChannel);
 
         // # Post the webhook message
